@@ -60,5 +60,5 @@ def game_cycle():
 if __name__ == "__main__":
     # FIXME инициализировать всё: поле, змейку и т.д.
     game_cycle()
-    root = Tk
+    root = Tk()
 
