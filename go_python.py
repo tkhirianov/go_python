@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-__author__ = 'Хирьянов'
+__author__ = 'Тимофей Фёдорович Хирьянов и Дмитрий Пестов'
 # license: GPLv3
 
 Vector2d = namedtuple('Vector2d', ['x', 'y'])
