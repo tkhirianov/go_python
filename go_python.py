@@ -40,6 +40,10 @@ class Field:
         """ Поле считывается из файла """
         # FIXME
         pass
+    
+    def tick(self):
+        #FIXME:
+        pass
 
 
 def game_cycle():
@@ -48,6 +52,8 @@ def game_cycle():
         а также проверяет, не наступил ли game over
     """
     # FIXME
+    field.tick()
+    snake.go()
     pass
 
 if __name__ == "__main__":
