@@ -1,4 +1,5 @@
 from collections import namedtuple
+from tkinter import *
 
 __author__ = 'Тимофей Фёдорович Хирьянов и Дмитрий Пестов'
 # license: GPLv3
@@ -59,4 +60,5 @@ def game_cycle():
 if __name__ == "__main__":
     # FIXME инициализировать всё: поле, змейку и т.д.
     game_cycle()
+    root = Tk
 
